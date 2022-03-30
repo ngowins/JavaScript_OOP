@@ -33,11 +33,12 @@ class Coder extends Person {
   }
 }
 
-let John = new Person("John", 3, "Birmingham, AL", [
+const John = new Person("John", 3, "Birmingham, AL", [
   "cycling",
   " learning Javascript",
 ]);
-let Jane = new Coder("Jane", 0, "Riverchase, AL", ["working out"]);
+
+const Jane = new Coder("Jane", 0, "Riverchase, AL", ["working out"]);
 
 John.greeting();
 John.info();
